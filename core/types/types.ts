@@ -19,3 +19,5 @@ const tuple = [1, 'a'] //fix array length
 const literal = string //exact value
 
 type combinable = number // custom  or Aliases types
+
+let userInput: unknown // unknown type
