@@ -1,0 +1,19 @@
+{
+	"name": "typescript-essentials",
+	"version": "1.0.0",
+	"description": "core concepts of typescript",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Akash-barsagadey/typescript-essentials.git"
+	},
+	"author": "Akash Barsagadey",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Akash-barsagadey/typescript-essentials/issues"
+	},
+	"homepage": "https://github.com/Akash-barsagadey/typescript-essentials#readme"
+}
