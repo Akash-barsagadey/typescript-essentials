@@ -13,3 +13,7 @@ for (const hobby of emp.hobbies) {
 	console.log(hobby.toUpperCase())
 	// console.log(hobby.map()); // !!! ERROR !!!
 }
+
+let list: number[] = [1, 2, 3]
+
+let list1: Array<number> = [1, 2, 3]

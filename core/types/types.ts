@@ -21,3 +21,7 @@ const literal = string //exact value
 type combinable = number // custom  or Aliases types
 
 let userInput: unknown // unknown type
+
+const u: undefined = undefined
+
+const n: null = null

@@ -19,3 +19,14 @@ const product = {
     description: string;
   }
 } */
+
+declare function create(o: object | null): void
+
+create({ prop: 0 }) // OK
+create(null) // OK
+
+//create(42); // Error
+//Argument of type '42' is not assignable to parameter of type 'object | null'.
+
+//create('string') // Error
+//Argument of type '"string"' is not assignable to parameter of type 'object | null'.
