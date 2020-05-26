@@ -1,7 +1,7 @@
 type Combinable = number | string
 type ConversionDescriptor = 'as-number' | 'as-text'
 
-function combine(input1: Combinable, input2: Combinable, resultConversion: ConversionDescriptor) {
+function combineCustom(input1: Combinable, input2: Combinable, resultConversion: ConversionDescriptor) {
 	let result
 	if ((typeof input1 === 'number' && typeof input2 === 'number') || resultConversion === 'as-number') {
 		result = +input1 + +input2
@@ -11,11 +11,11 @@ function combine(input1: Combinable, input2: Combinable, resultConversion: Conve
 	return result
 }
 
-const combinedAges = combine(30, 26, 'as-number')
-console.log(combinedAges)
+const combinedCustomAges = combineCustom(30, 26, 'as-number')
+console.log(combinedCustomAges)
 
-const combinedNames = combine('Akash', 'Barsagadey', 'as-text')
-console.log(combinedNames)
+const combinedCustomNames = combineCustom('Akash', 'Barsagadey', 'as-text')
+console.log(combinedCustomNames)
 
 type User = { name: string; age: number }
 const u1: User = { name: 'Akash', age: 27 } // this works!

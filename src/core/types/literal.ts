@@ -1,4 +1,4 @@
-function combine(input1: number | string, input2: number | string, resultConversion: 'as-number' | 'as-text') {
+function combineLiteral(input1: number | string, input2: number | string, resultConversion: 'as-number' | 'as-text') {
 	let result
 	if ((typeof input1 === 'number' && typeof input2 === 'number') || resultConversion === 'as-number') {
 		result = +input1 + +input2
@@ -15,11 +15,11 @@ function combine(input1: number | string, input2: number | string, resultConvers
 	//  + parseFloat
 }
 
-const combinedAge = combine(30, 26, 'as-number')
-console.log(combinedAge)
+const combinedAgeLiteral = combineLiteral(30, 26, 'as-number')
+console.log(combinedAgeLiteral)
 
-const combinedStringAges = combine('30', '26', 'as-number')
-console.log(combinedStringAges)
+const combinedStringAgesLiteral = combineLiteral('30', '26', 'as-number')
+console.log(combinedStringAgesLiteral)
 
-const combinedName = combine('Akash', 'Barsagadey', 'as-text')
-console.log(combinedName)
+const combinedNameLiteral = combineLiteral('Akash', 'Barsagadey', 'as-text')
+console.log(combinedNameLiteral)
