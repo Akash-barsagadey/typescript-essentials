@@ -36,8 +36,8 @@ npm run test
 
 👤 **Akash Barsagadey**
 
-* Github: [@Akash-barsagadey](https://github.com/Akash-barsagadey)
-* LinkedIn: [@akash-barsagadey](https://linkedin.com/in/akash-barsagadey)
+-   Github: [@Akash-barsagadey](https://github.com/Akash-barsagadey)
+-   LinkedIn: [@akash-barsagadey](https://linkedin.com/in/akash-barsagadey)
 
 ## 🤝 Contributing
 
@@ -51,6 +51,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2020 [Akash Barsagadey](https://github.com/Akash-barsagadey).<br />
 This project is [Akash Barsagadey](https://github.com/Akash-barsagadey/typescript-essentials/blob/master/LICENSE) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
