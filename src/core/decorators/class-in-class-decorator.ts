@@ -17,7 +17,7 @@ function WithTemplate3(template: string, hookId: string) {
 
 @WithTemplate3('<h1>My Person Object</h1>', 'app')
 class Person5 {
-	name = 'Max'
+	name = 'Akash'
 
 	constructor() {
 		console.log('Creating person object...')
