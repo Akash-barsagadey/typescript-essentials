@@ -1,4 +1,4 @@
-function Logger(logString: string) {
+function Logger1(logString: string) {
 	console.log('LOGGER FACTORY')
 	return function (constructor: Function) {
 		console.log(logString)
@@ -19,8 +19,7 @@ function WithTemplate2(template: string, hookId: string) {
 	}
 }
 
-// @Logger('LOGGING - PERSON')
-@Logger('LOGGING')
+@Logger1('LOGGING')
 @WithTemplate2('<h1>My Person Object</h1>', 'app')
 class Person4 {
 	name = 'Akash'

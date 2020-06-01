@@ -68,5 +68,5 @@
 
 		"noEmitOnError": false
 	},
-	"exclude": ["node_modules", "./src/demo"]
+	"exclude": ["node_modules", "./src/demo", "./src/react"]
 }
